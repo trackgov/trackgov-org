@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <head>
+        <title>trackgov.org</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+            html {
+                height: 100%;
+                background: rgb(8,47,107);
+                background: linear-gradient(0deg, rgba(8,47,107,1) 0%, rgba(0,102,255,1) 100%);
+                font-family: 'Inter', sans-serif;
+            }
+            body {
+                padding: 0;
+                background: url(./src/img/bg.png);
+                background-repeat: no-repeat;
+                background-position: 0 0;
+                margin: 0;
+                height: 100%;
+            }
+            .wrapper {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .wrapper div {
+                flex: 1
+            }
+            .logo {
+                display: flex;
+                justify-content: center;
+            }
+            .logo img {
+                align-self: flex-end;
+                height: 48px;
+            }
+            .message {
+                display: flex
+            }
+            .message p {
+                align-self: center;
+                color: white;
+                font-style: italic;
+                font-weight: 300;
+                letter-spacing: -1.5px;
+                text-align: center;
+                font-size: 1.625rem;
+            }
+            .message span {
+                font-size: 2rem;
+                font-weight: 600;
+                font-size: 2rem;
+                letter-spacing: -2px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="logo">
+                <img alt="trackgov Logo" src="./src/img/logo-url-64.png">
+            </div>
+            <div class="message">
+                <p>
+                    Ao invés de apenas desejar um país do qual se orgulhar,<br>
+                    <span>seja a pessoa da qual seu país se orgulharia.</span>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
